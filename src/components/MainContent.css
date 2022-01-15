@@ -1,0 +1,22 @@
+.MainContent {
+  font-size: 1.125rem;
+  height: 100%;
+}
+
+.MainContent h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.MainContent .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.MainContent-list-items > *:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
